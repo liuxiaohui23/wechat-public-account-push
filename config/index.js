@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "otBQ26KzCR1DTIJMWgQ-H7blhWuQ",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "S8yYy3tyBMlatUSsiyPx8CkvtqaxS_9ZYo_mwTKNplE",
+      useTemplateId: "qN3WM_uFIfWoUgMRRMbLOzuUAKf4YyCoi0GlVZJJFDU",
       // 所在省份
       province: "广西",
       // 所在城市
@@ -79,7 +79,7 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {"type": "生日", "name": "小懒猪", "year": "2000", "date": "07-04"},
-        {"false": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "刘晓辉", "year": "1999", "date": "05-01"},
         {"type": "节日", "name": "在一起第一天", "year": "2022", "date": "09-01"},
